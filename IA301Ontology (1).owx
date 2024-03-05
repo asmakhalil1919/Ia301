@@ -1,0 +1,913 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dj_ma/ontologies/2023/10/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dj_ma/ontologies/2023/10/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/dj_ma/ontologies/2023/10/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Affordability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AffordableEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Batteries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commercial_Consumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostEffective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostEffictiveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distribution_Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Efficiency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electric_Vehicles_EV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricalEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectromagneticEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnergyStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnergyType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy_Consumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy_Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy_Policy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generation_Facility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighPollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HydroelectricEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industrial_Consumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowEnergyEfficiency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowPollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicalEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonAffordableEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotCostEffective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NuclearEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Off_Grid_Solution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plug-in_Hybrid_Electric_Vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PollutionDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulator_Policy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RenewableGeneratedChemicals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Renewable_Energy_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residential_Consumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SolarEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubsidyPolicy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sustainability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThermalEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chemicalStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#highEnergyEfficiency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Enforces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsApplicable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsGeneratedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsHigherThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsSupportedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ResultsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Supports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAffordability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCostEffectiveness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnergyEfficiency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Capacity_in_mW"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cost_Per_Kwh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Policy_Start_Date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adam_Appartement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auto_Assembly_Co"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chevrolet_Volt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#City_Solar_Farm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coal_Mine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CompressedAir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Country_Nation_Creed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropeanUnionEmissionTradingSystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlyWheels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fuel_Cell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HydroPower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HydroelectricDam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HydrogenProduction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hydrogyn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hyundai_Ioniq_Plug-in_Hybrid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Island_MicroGreed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_House"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lead_Acid_Batteries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lithium_Batteries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Main_Street_Mall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Natural_Gas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NickelBatteries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NuclearPowerPlants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oil_Well"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PowerPlant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadioSignal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Renewable_Energy_Farm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#River_Flow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#River_Side_HydroPlants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SolarPanels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SteelMills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steel_Works_inc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sunlight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tech_Park"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tesla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TextileMills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toyota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turbines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Urban_Emission_Law"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#X-Ray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#river_flow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#solar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2025_Renewable_Target"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fossil_fuel_subsides_(G20)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AffordableEnergy"/>
+        <Class IRI="#Affordability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Batteries"/>
+        <Class IRI="#chemicalStorage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Batteries"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ResultsIn"/>
+            <Class IRI="#HighPollution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commercial_Consumer"/>
+        <Class IRI="#Energy_Consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostEffective"/>
+        <Class IRI="#CostEffictiveness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distribution_Network"/>
+        <Class IRI="#Energy_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electric_Vehicles_EV"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electric_Vehicles_EV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Enforces"/>
+            <Class IRI="#Sustainability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electric_Vehicles_EV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ResultsIn"/>
+            <Class IRI="#LowPollution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electric_Vehicles_EV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnergyEfficiency"/>
+            <Class IRI="#highEnergyEfficiency"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricalEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectromagneticEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energy_Policy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#IsSupportedBy"/>
+            <Class IRI="#Generation_Facility"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generation_Facility"/>
+        <Class IRI="#Energy_Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grid"/>
+        <Class IRI="#Distribution_Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighPollution"/>
+        <Class IRI="#PollutionDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HydroelectricEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialStorage"/>
+        <Class IRI="#EnergyStorage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial_Consumer"/>
+        <Class IRI="#Energy_Consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial_Consumer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnergyEfficiency"/>
+            <Class IRI="#LowEnergyEfficiency"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial_Consumer"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#IsHigherThan"/>
+            <Class IRI="#Residential_Consumer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial_Consumer"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#Capacity_in_mW"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowEnergyEfficiency"/>
+        <Class IRI="#Efficiency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowPollution"/>
+        <Class IRI="#PollutionDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonAffordableEnergy"/>
+        <Class IRI="#Affordability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+        <Class IRI="#Energy_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ResultsIn"/>
+            <Class IRI="#HighPollution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAffordability"/>
+            <Class IRI="#NonAffordableEnergy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotCostEffective"/>
+        <Class IRI="#CostEffictiveness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NuclearEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Off_Grid_Solution"/>
+        <Class IRI="#Distribution_Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plug-in_Hybrid_Electric_Vehicles"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plug-in_Hybrid_Electric_Vehicles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Enforces"/>
+            <Class IRI="#Sustainability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plug-in_Hybrid_Electric_Vehicles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#IsSupportedBy"/>
+            <Class IRI="#EnergyStorage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plug-in_Hybrid_Electric_Vehicles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ResultsIn"/>
+            <Class IRI="#LowPollution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plug-in_Hybrid_Electric_Vehicles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnergyEfficiency"/>
+            <Class IRI="#highEnergyEfficiency"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulator_Policy"/>
+        <Class IRI="#Energy_Policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulator_Policy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Enforces"/>
+            <Class IRI="#Residential_Consumer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulator_Policy"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#Cost_Per_Kwh"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenewableGeneratedChemicals"/>
+        <Class IRI="#chemicalStorage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Renewable_Energy_Source"/>
+        <Class IRI="#Energy_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Renewable_Energy_Source"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Enforces"/>
+            <Class IRI="#Sustainability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Renewable_Energy_Source"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAffordability"/>
+            <Class IRI="#AffordableEnergy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Renewable_Energy_Source"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnergyEfficiency"/>
+            <Class IRI="#highEnergyEfficiency"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residential_Consumer"/>
+        <Class IRI="#Energy_Consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residential_Consumer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Uses"/>
+            <Class IRI="#Generation_Facility"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SolarEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ResultsIn"/>
+            <Class IRI="#HighPollution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnergyEfficiency"/>
+            <Class IRI="#LowEnergyEfficiency"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubsidyPolicy"/>
+        <Class IRI="#Energy_Policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubsidyPolicy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#IsApplicable"/>
+            <Class IRI="#Renewable_Energy_Source"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThermalEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicles"/>
+        <Class IRI="#Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindEnergy"/>
+        <Class IRI="#EnergyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chemicalStorage"/>
+        <Class IRI="#EnergyStorage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#highEnergyEfficiency"/>
+        <Class IRI="#Efficiency"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AffordableEnergy"/>
+        <Class IRI="#NonAffordableEnergy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CostEffective"/>
+        <Class IRI="#NotCostEffective"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighPollution"/>
+        <Class IRI="#LowPollution"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+        <Class IRI="#Renewable_Energy_Source"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Residential_Consumer"/>
+        <NamedIndividual IRI="#Adam_Appartement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plug-in_Hybrid_Electric_Vehicles"/>
+        <NamedIndividual IRI="#Chevrolet_Volt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generation_Facility"/>
+        <NamedIndividual IRI="#City_Solar_Farm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+        <NamedIndividual IRI="#Coal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IndustrialStorage"/>
+        <NamedIndividual IRI="#CompressedAir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Distribution_Network"/>
+        <NamedIndividual IRI="#Country_Nation_Creed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regulator_Policy"/>
+        <NamedIndividual IRI="#EuropeanUnionEmissionTradingSystem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IndustrialStorage"/>
+        <NamedIndividual IRI="#FlyWheels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RenewableGeneratedChemicals"/>
+        <NamedIndividual IRI="#Fuel_Cell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IndustrialStorage"/>
+        <NamedIndividual IRI="#HydroPower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HydroelectricEnergy"/>
+        <NamedIndividual IRI="#HydroelectricDam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IndustrialStorage"/>
+        <NamedIndividual IRI="#HydrogenProduction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RenewableGeneratedChemicals"/>
+        <NamedIndividual IRI="#Hydrogyn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plug-in_Hybrid_Electric_Vehicles"/>
+        <NamedIndividual IRI="#Hyundai_Ioniq_Plug-in_Hybrid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Distribution_Network"/>
+        <NamedIndividual IRI="#Island_MicroGreed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Residential_Consumer"/>
+        <NamedIndividual IRI="#John_House"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Batteries"/>
+        <NamedIndividual IRI="#Lead_Acid_Batteries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Batteries"/>
+        <NamedIndividual IRI="#Lithium_Batteries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Commercial_Consumer"/>
+        <NamedIndividual IRI="#Main_Street_Mall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+        <NamedIndividual IRI="#Natural_Gas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Batteries"/>
+        <NamedIndividual IRI="#NickelBatteries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NuclearEnergy"/>
+        <NamedIndividual IRI="#NuclearPowerPlants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+        <NamedIndividual IRI="#Oil_Well"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NonRenewable_Energy_Source"/>
+        <NamedIndividual IRI="#Peat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generation_Facility"/>
+        <NamedIndividual IRI="#PowerPlant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElectromagneticEnergy"/>
+        <NamedIndividual IRI="#RadioSignal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generation_Facility"/>
+        <NamedIndividual IRI="#Renewable_Energy_Farm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generation_Facility"/>
+        <NamedIndividual IRI="#River_Side_HydroPlants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SolarEnergy"/>
+        <NamedIndividual IRI="#SolarPanels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Industrial_Consumer"/>
+        <NamedIndividual IRI="#SteelMills"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElectromagneticEnergy"/>
+        <NamedIndividual IRI="#Sunlight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Commercial_Consumer"/>
+        <NamedIndividual IRI="#Tech_Park"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electric_Vehicles_EV"/>
+        <NamedIndividual IRI="#Tesla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Industrial_Consumer"/>
+        <NamedIndividual IRI="#TextileMills"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#Toyota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WindEnergy"/>
+        <NamedIndividual IRI="#Turbines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regulator_Policy"/>
+        <NamedIndividual IRI="#Urban_Emission_Law"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElectromagneticEnergy"/>
+        <NamedIndividual IRI="#X-Ray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Renewable_Energy_Source"/>
+        <NamedIndividual IRI="#river_flow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Renewable_Energy_Source"/>
+        <NamedIndividual IRI="#solar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regulator_Policy"/>
+        <NamedIndividual IRI="#2025_Renewable_Target"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SubsidyPolicy"/>
+        <NamedIndividual IRI="#fossil_fuel_subsides_(G20)"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Policy_Start_Date"/>
+        <NamedIndividual IRI="#EuropeanUnionEmissionTradingSystem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2005</Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#Enforces"/>
+        <ObjectProperty IRI="#IsSupportedBy"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsGeneratedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Enforces"/>
+        <Class IRI="#SubsidyPolicy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSupportedBy"/>
+        <Class IRI="#Energy_Infrastructure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsSupportedBy"/>
+        <Class IRI="#Energy_Policy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Uses"/>
+        <Class IRI="#Energy_Consumer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Uses"/>
+        <Class IRI="#Energy_Source"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsGeneratedBy"/>
+        <Class IRI="#Energy_Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsGeneratedBy"/>
+        <Class IRI="#Generation_Facility"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsPartOf"/>
+        <Class IRI="#Distribution_Network"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsPartOf"/>
+        <Class IRI="#Grid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsPartOf"/>
+        <Class IRI="#Off_Grid_Solution"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Capacity_in_mW"/>
+        <Class IRI="#Generation_Facility"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cost_Per_Kwh"/>
+        <Class IRI="#Energy_Source"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Policy_Start_Date"/>
+        <Class IRI="#Energy_Policy"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Capacity_in_mW"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cost_Per_Kwh"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Policy_Start_Date"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
